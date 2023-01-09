@@ -14,4 +14,23 @@ void main(List<String> arguments) {
 
   final fullName = 'John Doe';
   print(fullName);
+
+  String thing1 = '';
+
+  if (thing1.isEmpty) {
+    print('Empty');
+  }
+
+  String? thing2;
+
+  if (thing2 == null) {
+    print('thing2');
+  }
+
+  for (var i = 0; i < 10; i++) {
+    print(i);
+  }
+
+  var text = 'good';
+  assert(text == 'bad');
 }
