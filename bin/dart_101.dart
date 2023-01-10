@@ -33,4 +33,11 @@ void main(List<String> arguments) {
 
   var text = 'good';
   assert(text == 'bad');
+
+  String? name;
+  print(name);
+
+  name ?== 'Vijay';
+  print(name);
+  
 }
